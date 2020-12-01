@@ -37,7 +37,7 @@ export default function CountryList() {
           payload: countries
         })
       )
-  }, [])
+  }, [dispatch])
 
   return (
     <div className="continer">
